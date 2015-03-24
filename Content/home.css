@@ -1,0 +1,78 @@
+﻿/*Navbars*/
+
+.navbar {
+    margin-bottom: 0;
+}
+
+/*Trons*/
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.jumbotron-blue{
+    color: white;
+    /*background-color: rgb(111, 84, 153);*/
+    /*background-image: linear-gradient(rgb(86, 61, 124) 0px, rgb(111, 84, 153) 100%);*/
+    /*background-repeat: repeat-x;*/
+    background: url("../images/octicons-bg.png") repeat scroll center center rgb(111, 84, 153);
+    margin-bottom: 0;
+}
+
+.jumbotron-green {
+    color: green;
+    background-color: white;
+    background-image: linear-gradient(white 0px, #eeeeee 100%);
+    background-repeat: repeat-x;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron-darkgreen{
+    color: white;
+    /*background-color: rgb(111, 84, 153);*/
+    /*background-image: linear-gradient(rgb(86, 61, 124) 0px, rgb(111, 84, 153) 100%);*/
+    /*background-repeat: repeat-x;*/
+    background: url("../images/octicons-bg.png") repeat scroll center center darkgreen;
+    margin-bottom: 0;
+}
+
+.jumbotron-green h2{
+    color: black;
+}
+
+.jumbotron-green h4{
+    color: black;
+}
+
+.container-grey{
+    background-color: whitesmoke;
+}
+/*Text*/
+
+.text-tiny {
+    font-size: 14px !important;
+}
+
+.text-white{
+    color: white;
+    margin-right: 12px;
+}
+
+.text-white:hover{
+    color: lightgray;
+}
+
+
+.img-small {
+    height: 120px;
+}
+
+.container-with-bottom{
+    margin-bottom: 100px;
+}
+
+/*Spacing*/
+
+.move-down{
+    margin-top: 30px;
+}

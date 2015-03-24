@@ -1,0 +1,44 @@
+﻿@{
+    Layout = "_Bootstrap.cshtml";
+}
+
+@section jumbo{
+<div class="jumbotron jumbotron-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1>An introduction to Bootstrap</h1>
+                <p class="text-tiny">Built by Twitter. An introduction from the very basics to (some) reusable components.</p>
+                <h4 class="move-down">Some examples</h4>
+                <a class="text-white" href="http://getbootstrap.com/" target="_blank">getbootstrap.com</a>
+                <a class="text-white" href="http://fontastic.me/" target="_blank">fontastic.me</a>
+                <a class="text-white" href="https://kippt.com/" target="_blank">kippt.com</a>
+            </div>
+            <div class="col-lg-4 text-center">
+                @Sander.Intro()
+            </div>
+        </div>
+    </div>
+</div>
+}
+
+@section footer{
+    <div class="container">
+        <hr />
+        <p>Copyright 2015 - ditisagile.nl</p>
+    </div>
+}
+
+<div class="container container-with-bottom">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            @Controls.Card("Great speakers", "Check them out at the DevWeek 2015 conference in Westminster Hall, London, UK.", "allen_simon")
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            @Controls.Card("London", "And the conference is in the middle of the the great city of London", "london")
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            @Controls.Card("Beerfest?", "For what I've heard there's a beer fest on Tuesday.", "beerfest")
+        </div>
+    </div>
+</div>    

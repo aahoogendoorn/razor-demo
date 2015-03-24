@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>@Page.Title</title>
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/home.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/cards.css" rel="stylesheet" type="text/css" />
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        @RenderSection("head", required: false)
+    </head>
+    <body>
+        @RenderSection("header", required: false)
+        @RenderSection("jumbo", required: false)
+        @RenderBody()
+        @RenderSection("footer", required: false)
+
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+    </body>
+</html>

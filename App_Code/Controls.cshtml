@@ -1,0 +1,20 @@
+﻿
+@helper Card(string title, string description, string image) {
+
+    var path = @"images/" + @image + ".jpg";
+    
+    <div class="card">
+        <div class="card-image">
+            <img class="img-responsive" src="@path" style="min-height: 240px;" />
+            <span class="card-title">@title</span>
+        </div>
+
+        <div class="card-content">
+            <p>@description</p>
+        </div>
+
+        <div class="card-action">
+            <a href="~/Home.cshtml" target="new_blank"><span class="fa fa-home"></span> Home</a>
+        </div>
+    </div>
+}
